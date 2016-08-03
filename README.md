@@ -12,5 +12,12 @@ B. Adding Toolbar--->
     1.Add the dependency.
     2.Select NoActionBar in the theme already applied in styles.XML(in this case theme.XML)
     3.Create a new XML file with Root element(android.support.v7.widget.Toolbar)
+    
+C. Adding options on Toolbaar --->
+
+    1.load the images in imageAsset file
+    2.define them in <item> in an xml menu file
+    3.inflate the menu in onCreateOptionsMenu
+    4.handle click events in onOptionsItemSelected    
           
                  
