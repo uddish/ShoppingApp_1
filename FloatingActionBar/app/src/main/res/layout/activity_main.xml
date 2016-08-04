@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,17 +16,43 @@
         android:layout_height="wrap_content"
         android:text="Hello World!" />
 
-    <android.support.design.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_btn_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="180dp"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@color/fab1"
+        android:visibility="invisible"
+        android:elevation="6dp"
+        android:src="@drawable/ic_action_location"
+        app:pressedTranslationZ="12dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_btn_taxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="100dp"
+        android:visibility="invisible"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@color/fab2"
+        android:elevation="6dp"
+        android:src="@drawable/ic_action_taxi"
+        app:pressedTranslationZ="12dp"/>
+
+
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_btn"
+            android:id="@+id/fab_btn_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin_right"
+            android:layout_marginBottom="16dp"
             android:layout_gravity="bottom|end"
-            app:backgroundTint="@color/colorPrimary"
-            android:src="@drawable/ic_action_name"/>
+            app:backgroundTint="@color/colorAccent"
+            android:elevation="6dp"
+            android:src="@drawable/ic_action_add"
+            app:pressedTranslationZ="12dp"/>
 
-    </android.support.design.widget.CoordinatorLayout>
-</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
