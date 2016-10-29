@@ -2,10 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@android:color/white"
+    android:background="@drawable/Shopping"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.uddishverma.shoppingapp_splashscreen.MainActivity">
+    tools:context="com.example.uddishverma.shoppingapp_splashscreen.MainActivity"
+    >
 
     <!--adding toolbar in mainActivity-->
 
@@ -20,6 +21,9 @@
         android:text="HELLO"
         android:textColor="@android:color/black"
         android:textSize="30dp"
+        android:background="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"
         android:layout_gravity="center"/>
+
 
 </LinearLayout>
