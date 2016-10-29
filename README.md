@@ -26,3 +26,6 @@ D. Adding floating action button--->
     2. Add its dimension in dimension.xml
     3. Coordinator Layout---> https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html
     4. Update it in the layout file.
+
+
+#Edit BY MAYANK AGGARWAL
